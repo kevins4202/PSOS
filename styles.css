@@ -1,3 +1,13 @@
 .nav-link:hover{
     color:"F4C8C5";
 }
+
+@font-face{
+    font-family: "baloo";
+    src: url(BalooChettan2-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "cursive";
+    src: url(MrDafoe-Regular.ttf) format("truetype");
+}
