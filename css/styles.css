@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: "baloo";
-    src: url(BalooChettan2-VariableFont_wght.ttf) format("truetype");
+    src: url(fonts/BalooChettan2-VariableFont_wght.ttf) format("truetype");
 }
 
 @font-face {
     font-family: "cursive";
-    src: url(MrDafoe-Regular.ttf) format("truetype");
+    src: url(fonts/MrDafoe-Regular.ttf) format("truetype");
 }
 
 
