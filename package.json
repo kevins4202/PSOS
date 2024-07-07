@@ -1,0 +1,19 @@
+{
+  "name": "sos_website",
+  "version": "1.0.0",
+  "description": "Project Save Our Skin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Song",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevins4202/SOS_Website.git"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
