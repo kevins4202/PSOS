@@ -1,6 +1,6 @@
 <%- include('partials/header') %>
   <div
-    style="z-index:-1;background-image: url(files/background/home.png); opacity: 0.5; background-size: cover; background-repeat: no-repeat;display: flex; justify-content: center;flex-wrap: wrap;">
+    onload = "start(); console.log('hi')" style="z-index:-1;background-image: url(files/background/home.png); opacity: 0.5; background-size: cover; background-repeat: no-repeat;display: flex; justify-content: center;flex-wrap: wrap;">
     <h1 id = "target">0</h1>
     <div
       class = "button-container" >
@@ -25,6 +25,7 @@
     </div>
   </div>
 
-  <script src="./main.js" type="module"></script>
 
 <%- include('partials/footer') %>
+
+<script type = "module" src="../index.js" type="module"></script>
