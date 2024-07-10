@@ -3,6 +3,14 @@ import express from "express";
 const app = express();
 const port = 3000;
 
+import { CountUp } from './js/countUp.min.js';
+
+
+window.onload = function() {
+  var countUp = new CountUp('target', 1103, {duration: 3});
+  countUp.start();
+}
+
 app.use(express.static("public"));
 
 
