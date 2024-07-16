@@ -40,6 +40,16 @@ app.get("/blog", (req, res) =>{
         currYear: year
     })
 });
+app.get("/blog1", (req, res) =>{
+    res.render("blog1.ejs", {
+        currYear: year
+    })
+});
+app.get("/blog2", (req, res) =>{
+    res.render("blog2.ejs", {
+        currYear: year
+    })
+});
 
 app.listen(port, () =>{
     console.log(`Server running on port ${port}`);
