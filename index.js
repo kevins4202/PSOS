@@ -1,7 +1,12 @@
 import express from "express";
 
 const app = express();
-const port = 3000;
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+
 
 app.use(express.static("public"));
 
