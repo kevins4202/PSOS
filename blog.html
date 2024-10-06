@@ -68,23 +68,32 @@
   <div class="aboutus"
     style="z-index:-1;background-color: #fcebf8; background-size: cover;margin-bottom: 5px; padding-bottom:20px; background-repeat: no-repeat;display: flex; justify-content: center; flex-direction: column;">
     <p style="font-family: Jaldi; font-size: 52px; margin-top: 10px;padding-left: 25px;">Blog</p>
-    <div style="display: flex; flex-direction: row">
+    <!-- rows of blogs, with each blog having an image with the title and date to the right -->
+    <div class="container">
       <a class="nav-link active" class="link-dark" aria-current="page" href="blog1.html">
-        <div style="display: flex; align-items: center; height: 100px; width: 40%; font-size: 50">
-          Viral Skincare Trends (and if you should actually be participating)
+        <div class="row">
+          <div class="col-md-4">
+            <img src="public/images/blog1.jpg" style="width: 100%; height: 100%;">
+          </div>
+          <div class="col-md-8">
+            <p style="font-family: Marmelad; font-size: 30px;">Viral Skincare Trends (and if you should actually be
+              participating)</p>
+            <p style="font-family: Marmelad; font-size: 20px;">7-27-2024</p>
+          </div>
         </div>
-        date: 2024-06-27
       </a>
-    </div>
-    <div style="display: flex;  flex-direction: row">
       <a class="nav-link active" class="link-dark" aria-current="page" href="blog2.html">
-        <div style="display: flex; align-items: center; height: 100px; width: 40%; font-size: 50">
-          Deep Dive into Toners and Essences
+        <div class="row">
+          <div class="col-md-4">
+            <img src="public/images/blog2.jpg" style="width: 100%; height: 100%;">
+          </div>
+          <div class="col-md-8">
+            <p style="font-family: Marmelad; font-size: 30px;">Deep Dive into Toners and Essences</p>
+            <p style="font-family: Marmelad; font-size: 20px;">8-25-2024</p>
+          </div>
         </div>
-        date: 2024-07-24
       </a>
     </div>
-  </div>
 
 
 
@@ -97,28 +106,28 @@
 
 
 
-  <footer class="d-flex flex-wrap justify-content-between align-items-center"
-    style="background-color: #ffcbc4;height: 100px;">
-    <div class="col-md-4 d-flex align-items-center">
-      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <svg class="bi" width="30" height="24">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
-      </a>
-      <span class="mb-3 mb-md-0 text-muted">© Project Save our Skin, <span id="year"></span></span>
-    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center"
+      style="background-color: #ffcbc4;height: 100px;">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© Project Save our Skin, <span id="year"></span></span>
+      </div>
 
-    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-      <span style="font-family: Marmelad; padding-top: 15px; padding-right: 5px;">projectsaveourskin@gmail.com</span>
-      <a href="https://www.instagram.com/projectsaveourskin/?next=%2Fsophiaxxia%2F" target="_blank"><img
-          src="public/icons/insta.svg" style="height: 55px;margin-right: 15px;"></a>
-      <a href="https://www.tiktok.com/@projectsaveourskin?_t=8XF7iTY6Ozr%_r=1" target="_blank"><img
-          src="public/icons/tiktok.svg" style="height: 40px; margin-top: 6px;margin-right: 15px;"></a>
-    </ul>
-  </footer>
-  <script>
-    document.querySelector("#year").textContent = new Date().getFullYear();
-  </script>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <span style="font-family: Marmelad; padding-top: 15px; padding-right: 5px;">projectsaveourskin@gmail.com</span>
+        <a href="https://www.instagram.com/projectsaveourskin/?next=%2Fsophiaxxia%2F" target="_blank"><img
+            src="public/icons/insta.svg" style="height: 55px;margin-right: 15px;"></a>
+        <a href="https://www.tiktok.com/@projectsaveourskin?_t=8XF7iTY6Ozr%_r=1" target="_blank"><img
+            src="public/icons/tiktok.svg" style="height: 40px; margin-top: 6px;margin-right: 15px;"></a>
+      </ul>
+    </footer>
+    <script>
+      document.querySelector("#year").textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
