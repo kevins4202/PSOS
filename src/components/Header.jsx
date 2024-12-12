@@ -1,16 +1,17 @@
-import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../index.css';
+import psosLogo from '../assets/icons/psos_logo.png';
+
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary w-100" style={{ backgroundColor: '#ffcbc4', width: '100vw', margin: 0, padding: 0 }} data-bs-theme="light">
+    <Navbar expand="lg" id="header" className="w-100 navbar-light" style={{ backgroundColor: '#ffcbc4', width: '100vw', margin: 0, padding: 0 }} data-bs-theme="light">
       <Container fluid style={{ margin: 0, maxWidth: '100%' }}>
         <div className="navbar-brand">
           <Navbar.Brand href="/">
             <img
-              src="/icons/psos_logo.png"
+              src={psosLogo}
               style={{ height: '100px', marginRight: '3%' }}
               alt="PSOS Logo"
             />
