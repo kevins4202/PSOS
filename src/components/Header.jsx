@@ -25,11 +25,11 @@ const Header = () => {
         <Navbar.Toggle aria-controls="navbarSupportedContent" />
         <Navbar.Collapse id="navbarSupportedContent">
           <Nav className="ms-auto">
-            <Nav.Link className="link-dark" href="./index.html">HOME</Nav.Link>
-            <Nav.Link className="link-dark" href="./aboutus.html">ABOUT US</Nav.Link>
-            <Nav.Link className="link-dark" href="./events.html">EVENTS</Nav.Link>
-            <Nav.Link className="link-dark" href="./getinvolved.html">GET INVOLVED</Nav.Link>
-            <Nav.Link className="link-dark" href="./blog.html">BLOG</Nav.Link>
+            <Nav.Link className="link-dark" href="/">HOME</Nav.Link>
+            <Nav.Link className="link-dark" href="/aboutus">ABOUT US</Nav.Link>
+            <Nav.Link className="link-dark" href="/events">EVENTS</Nav.Link>
+            <Nav.Link className="link-dark" href="/getinvolved">GET INVOLVED</Nav.Link>
+            <Nav.Link className="link-dark" href="/blog">BLOG</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
