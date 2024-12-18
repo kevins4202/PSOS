@@ -1,5 +1,6 @@
 #root {
   min-width: 500px;
+  background-color: #fcebf8;
 }
 
 #header {
@@ -68,13 +69,13 @@
 }
 
 .aboutus-intro {
-  background-color: #fcebf8;
+  /* background-color: #fcebf8; */
   padding-bottom: 30px;
 }
 
 .aboutus-div {
   z-index: -1;
-  background-color: #fcebf8;
+  /* background-color: #fcebf8; */
   background-size: cover;
   margin-bottom: 5px;
   padding-bottom: 20px;
