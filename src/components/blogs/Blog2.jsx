@@ -1,0 +1,28 @@
+
+
+
+const Blog2 = () => {
+  return <>
+    <div style="background-color: #fcebf8; padding-bottom: 30px; display: flex; align-items: center;" >
+      <span style="width: fit-content; float: right; margin-left: 30px;margin-right: 30px; text-align: center;font-family: Jaldi;font-size: 25px;">
+        <p style="font-family: Jaldi; font-size: 42px;margin-top: 10px;">Diving Deep into Toners and Essences</p>
+        Unless you’re new to skincare, you know that the holy trinity of a good skincare routine consists of a cleanser, moisturizer, and SPF. Serums and eye creams obviously have their benefits in targeting certain skin concerns, but what’s the purpose of a toner/essence?
+
+        <p style="font-family: Jaldi; font-size: 36px;margin-top: 10px;">What’s a toner?</p>
+        A toner is a water-based skincare product that is typically used right after cleansing the face. The main purpose of a toner is to help your other skincare products absorb better into the skin, but the function of each toner varies.
+
+        <p style="font-family: Jaldi; font-size: 36px;margin-top: 10px;">How does a toner do its job?</p>
+        Toners can do their job by providing a subtle layer of hydration so that your other products can sink nicely into your epidermis. Similar to how a primer works to keep your makeup adhesive to your skin, a toner preps the skin to take in all the benefits of your products.
+        The ingredient that helps toners hydrate the skin is humectants. Humectants are ingredients that pull in additional moisture. If you layer a serum, moisturizer, and SPF on top of a toner containing humectants, the toner will help maximize the amount of hydration your skin gets by absorbing all the product into the skin. Look for toners containing ingredients like Glycerin, Peptides, Ceramides, and Hyaluronic acid for humectants.
+        Toners can also work by regulating the pH of your face. The pH of your face should ideally stay between 4.7-5.7 which is relatively acidic. However, most facial cleansers have a more basic pH to effectively remove all dirt and oils. In many cases, this cleansing and pH change can dry the skin out. To allow the skin to properly stay hydrated, a toner might contain an acidic ingredient to bring it back to its ideal pH range. Some great ingredients that do this are Citric Acid, Niacinamide, and Glycolic Acid.
+
+        <p style="font-family: Jaldi; font-size: 36px;margin-top: 10px;">Should you be using a toner?</p>
+        Now for the big question: Should you be using a toner? There are so many benefits to using a toner, and we have many toner recommendations on our <a href="https://www.instagram.com/projectsaveourskin/?next=%2Fsophiaxxia%2F" target="_blank">Instagram</a> and <a href="https://www.tiktok.com/@projectsaveourskin?_t=8XF7iTY6Ozr%_r=1" target="_blank">TikTok</a>. However, It’s not 100% essential to your skincare routine. It’s important to first get the basics of skincare down. For example, finding a good cleanser, moisturizer, and SPF for your skin. Next, it’s beneficial to explore what serums work for your specific skin concerns. If you have mastered these basics, it might be a good idea to explore some toner products to bring your skincare routine to the next level.
+
+        <p style="font-family: Jaldi; font-size: 10px;margin-top: 10px;">The content provided in this article is provided for information purposes only and is not a substitute for professional advice and consultation, including professional medical advice and consultation; it is provided with the understanding that Project Save our Skin is not engaged in the provision or rendering of medical advice or services. The opinions and content included in the article are the views of the interviewee only, and Project Save our Skin does not endorse or recommend any such content or information, or any product or service mentioned in the article. You understand and agree that Project Save our Skin shall not be liable for any claim, loss, or damage arising out of the use of, or reliance upon any content or information in the article</p>
+      </span>
+    </div>
+  </>
+};
+
+export default Blog2;

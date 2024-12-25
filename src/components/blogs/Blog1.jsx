@@ -1,0 +1,79 @@
+
+
+const Blog1 = () => {
+  return <>
+    <div
+      style="z-index:-1;background-color: #fcebf8; background-size: cover;margin-bottom: 5px; padding-bottom:20px; background-repeat: no-repeat;display: flex; justify-content: center;flex-wrap: wrap;">
+      <div style="display: flex; align-items: center;">
+        <span
+          style=" float: right; margin-left: 30px; margin-right: 30px; text-align: center;font-family: Jaldi;font-size: 25px;">
+          <p style="font-family: Jaldi; font-size: 42px;margin-top: 10px;">Viral Skincare Trends (and if you should
+            actually be participating)</p>
+          Skincare trends have been blowing up on Tiktok and Instagram. These trends seem to make social media
+          influencers’ skin look radiant and flawless, but do they really work? And if they do, are they actually good for
+          your skin? Let’s dive into some of the internet’s most popular skincare trends and see if you should really be
+          implementing them into your skincare routine.
+
+          <p style="font-family: Jaldi; font-size: 36px;margin-top: 10px;">Contouring your face with self tanner</p>
+          Influencers like Abby Baffoe, Poppy March, and Juliana Shiel have captivated Tik Tok with their unique
+          contouring technique: they dab self-tanning mousse onto their cheekbones, forehead, and nose with a beauty
+          blender to create a contoured effect. The stunning results have led millions of people to follow their lead in
+          creating bronzed-up looks even during winter. However, leaving tanning mousse on your face overnight isn’t
+          always the best idea. Dihydroxyacetone is the ingredient in tanning products that gives you a tan and is present
+          in most tanning mousses like St. Tropez Gradual Tan Classic Everyday Mousse. Prolonged use of Dihydroxyacetone,
+          especially on the more sensitive facial skin, alters collagen production and can result in premature wrinkling.
+          Coupled with UV radiation from sun exposure, the facial skin will wrinkle and age faster.
+          It would be better for the skin to simply use a contouring stick or bronzing powder in the morning to achieve
+          that glowy look. However, if you insist on contouring with a self-tanner, make sure you lather up with SPF each
+          morning to prevent the premature aging effect.
+
+
+          <p style="font-family: Jaldi; font-size: 36px;margin-top: 10px;">Retinol.</p>
+          Retinol is everywhere in people's skincare routines today, with everyone including 10-year-old Sephora girls
+          lunging for retinol products. While some experts say kids should avoid retinol, others say everyone past 20
+          should be using it, and others believe it shouldn’t be touched at all, we need to deep-dive into what retinol is
+          to understand the benefits and dangers.
+          Retinol is a form of Vitamin-A, and it functions on the skin by increasing cell turnover and collagen
+          production. Essentially, it helps to exfoliate and get rid of dead skin cells to smoothen the appearance and
+          tighten up the skin to reduce aging symptoms. However, using retinol when natural collagen production is still
+          high can lead to tolerance development for collagen boost. Over time, the epidermis will fail to produce
+          collagen alone. Therefore, you should only be using retinol if you are noticing skin sagging and wrinkling, or
+          if your doctor recommends it.
+
+          <p style="font-family: Jaldi; font-size: 36px;margin-top: 10px;">Double Cleansing</p>
+          Double cleansing has blown up on all social media platforms as a way to properly clean your pores. Double
+          cleansing is a popular Korean technique where you first go in with a cleansing oil and then follow up with a
+          water-based cleanser. With two cleansing steps, you might be hesitant to try it out if you have dry skin. But
+          with the nature of double cleansing, you should give it a shot–no matter what skin type you have!
+          The oil-based cleanser will go into the pores to remove all the non-polar gunk (ex. oils from skin and makeup),
+          while a water-based cleanser will remove all the polar dirt (ex. air germs, and debris). This will ensure that
+          all dirt is removed from your face. Concerns about dry-ness are valid, however, an oil-based cleanser is rarely
+          stripping because it emulsifies the skin barrier to hydrate.
+          Double cleansing is definitely a yes from us! Just after 1 week of double cleansing with the Skinfix cleanser
+          and Youth to the People cleanser, I’ve noticed a dramatic difference in the texture and complexion of my skin.
+          If you try it out, leave us a comment down below to tell us how you like it!
+
+          <p style="font-family: Jaldi; font-size: 36px;margin-top: 10px;">Shaving your face</p>
+          We all have peach fuzz all over our faces, but are there benefits of removing it? Shaving your face removes the
+          hair, but also removes a thin layer of dead skin and acts like a physical exfoliant. With this, you’re
+          essentially smoothening the texture of your skin while allowing new cells to resurface. Many experts say that
+          shaving the peach fuzz off allows for better skincare and makeup application. Although this is true, it’s also
+          important to note that harsh physical exfoliants aren’t for all skin types. If you’re interested in shaving your
+          face, you might want to start with super gentle micro razors for sensitive skin. Otherwise, this technique is
+          great if you’re looking to amp up your skincare routine!
+
+          <p style="font-family: Jaldi; font-size: 10px;margin-top: 10px;">The content provided in this article is
+            provided for information purposes only and is not a substitute for professional advice and consultation,
+            including professional medical advice and consultation; it is provided with the understanding that Project
+            Save our Skin is not engaged in the provision or rendering of medical advice or services. The opinions and
+            content included in the article are the views of the interviewee only, and Project Save our Skin does not
+            endorse or recommend any such content or information, or any product or service mentioned in the article. You
+            understand and agree that Project Save our Skin shall not be liable for any claim, loss, or damage arising out
+            of the use of, or reliance upon any content or information in the article.</p>
+        </span>
+      </div>
+    </div>
+  </>
+};
+
+export default Blog1;
