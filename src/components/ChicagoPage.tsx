@@ -1,7 +1,6 @@
 import { Heart, MapPin, Users, Calendar, Award, ExternalLink } from "lucide-react";
 import { Card } from "./ui/card";
 import { Button } from "./ui/button";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ContactSection } from "./ContactSection";
 import psosLogo from '../assets/logo.png';
 
@@ -29,7 +28,7 @@ export function ChicagoPage() {
       {/* Hero Section with Chicago Skyline */}
       <section className="py-20 bg-gradient-to-br from-[var(--pink-light)] via-white to-[var(--matcha-light)] relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <ImageWithFallback
+          <img
             src="https://images.unsplash.com/photo-1689794828964-37438657a8c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGljYWdvJTIwc2t5bGluZSUyMGJlYXV0aWZ1bCUyMHN1bnNldHxlbnwxfHx8fDE3NTUyMDUwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080"
             alt="Chicago Skyline"
             className="w-full h-full object-cover opacity-10"
@@ -91,7 +90,7 @@ export function ChicagoPage() {
               <Card className="p-8 border-pink-100 hover:shadow-lg transition-all duration-300">
                 <div className="text-center">
                   <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-pink-100 to-pink-200 rounded-full p-2">
-                    <ImageWithFallback
+                    <img
                       src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                       alt="Co-President 1"
                       className="w-full h-full object-cover rounded-full"
@@ -121,7 +120,7 @@ export function ChicagoPage() {
               <Card className="p-8 border-pink-100 hover:shadow-lg transition-all duration-300">
                 <div className="text-center">
                   <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-pink-100 to-pink-200 rounded-full p-2">
-                    <ImageWithFallback
+                    <img
                       src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                       alt="Co-President 2"
                       className="w-full h-full object-cover rounded-full"

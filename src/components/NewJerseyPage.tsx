@@ -1,7 +1,6 @@
 import { Users, MapPin, Award, Calendar, Heart, ExternalLink } from "lucide-react";
 import { Card } from "./ui/card";
 import { Button } from "./ui/button";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ContactSection } from "./ContactSection";
 import psosLogo from '../assets/logo.png';
 
@@ -85,7 +84,7 @@ export function NewJerseyPage() {
               <Card className="p-8 border-[var(--matcha-medium)] hover:shadow-lg transition-all duration-300">
                 <div className="text-center">
                   <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-[var(--matcha-light)] to-[var(--matcha-medium)] rounded-full p-2">
-                    <ImageWithFallback
+                    <img
                       src="https://images.unsplash.com/photo-1494790108755-2616b2e8a9d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                       alt="Co-President 1"
                       className="w-full h-full object-cover rounded-full"
@@ -115,7 +114,7 @@ export function NewJerseyPage() {
               <Card className="p-8 border-[var(--matcha-medium)] hover:shadow-lg transition-all duration-300">
                 <div className="text-center">
                   <div className="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-[var(--matcha-light)] to-[var(--matcha-medium)] rounded-full p-2">
-                    <ImageWithFallback
+                    <img
                       src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
                       alt="Co-President 2"
                       className="w-full h-full object-cover rounded-full"
