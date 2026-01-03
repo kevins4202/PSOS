@@ -6,11 +6,4 @@ README.md
 .env
 .DS_Store
 PSOS-backup
-src
-public
 *.md
-vite.config.ts
-tsconfig*.json
-tailwind.config.js
-postcss.config.js
-index.html
