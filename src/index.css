@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  /* Pink Palette */
+  --pink-light: #f7f1f4;
+  --pink-medium: #d47394;
+  --pink-primary: #d47394;
+  --pink-dark: #b85d83;
+
+  /* Matcha Green Palette */
+  --matcha-light: #f0f5f0;
+  --matcha-medium: #8db38d;
+  --matcha-primary: #7ba37b;
+  --matcha-dark: #5d8a5d;
+
+  /* Font families */
+  --font-heading: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: #2d2d2d;
+    background: #fefefe;
+    margin: 0;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, var(--pink-primary), var(--pink-medium));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-gradient-pink {
+    background: linear-gradient(135deg, #f7f1f4 0%, #eac7d4 100%);
+  }
+
+  .font-heading {
+    font-family: var(--font-heading);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+}
